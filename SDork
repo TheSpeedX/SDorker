@@ -1,0 +1,199 @@
+#!/bin/bash
+clear
+echo -e "\e[4;31m SpeedX Productions !!! \e[0m"
+echo -e "\e[1;34m Presents \e[0m"
+echo -e "\e[1;32m SuperDorker \e[0m"
+echo "Press Enter To Continue"
+read a
+apt update
+apt upgrade
+pkg update
+pkg upgrade
+pkg install figlet toilet curl python2 busybox
+pip2 install --upgrade pip
+pip2 install urllib3
+pip2 install progressbar2
+for (( start=5;start>=5;start++ ))
+do
+clear
+echo -e "\e[1;32m"
+figlet -f slant -c S Dorker
+echo -e "\e[1;34m Created By \e[0m"
+toilet -f mono12 -F gay SpeedX
+echo -e "\e[4;34m This Dorker Was Created By SpeedX \e[0m"
+echo -e "\e[1;34m For Any Queries Mail Me!!!\e[0m"
+echo -e "\e[1;32m           Mail: ggspeedx29@gmail.com \e[0m"
+echo -e "\e[4;32m  Facebook Page: https://www.facebook.com/GyanaTech \e[0m"
+echo " "
+echo -e "\e[4;31m Please Read Instruction Carefully !!! \e[0m"
+echo -e "\e[1;33m"
+echo "Press 1 To Generate Sites From Dork"
+echo "Press 2 To Scan For Vulnerable Sites"
+echo "Press 3 To View Sample Dorks"
+echo "Press 4 For Instructions"
+echo "Press 5 to Exit "
+read ch
+if [ $ch -eq 1 ];then
+clear
+figlet -c S Dorker
+echo -e "\e[1;34m Created By \e[1;32m"
+figlet -f slant -c SpeedX
+echo -e "\e[1;33m Enter A Google Dork:"
+read dork
+echo -e "Enter Number Of Pages:"
+read page
+echo >SDList.txt
+echo -e "\e[1;34m Please Wait... This May Take 1-2 Minutes..."
+url="https://www.google.com/search?q="+$dork
+curl -sA "Chrome" -L $url -o list1.txt
+python2 extract.py list1.txt >SDList.txt
+echo " Dorking Started !!!"
+half=$(( page/2 ))
+if [ $page -gt 1 ];then
+for (( i=1;i<$page;i++ ))
+do
+turl=$url"&start="$(( i*10 ))
+fn="list"$(( i+1 ))".txt"
+curl -sA "Chrome" -L $turl -o $fn
+python2 extract.py $fn >>SDList.txt
+if [ $i -eq $half ];then
+echo "50% Completed !!!"
+fi
+done
+fi
+echo "100% Completed !!!"
+echo "List Created For Dork: "$dork
+echo "Vulnerable Sites Saved in FileName: SDList.txt"
+echo " "
+rm list*.txt
+echo "Do You Want To View it Now (Y/N):"
+read cho
+if [ "$cho" = "Y" ] || [ "$cho" = "y" ] ;then
+echo -e "\e[1;31mThis List Was Created By Super Dorker !!!"
+echo " "
+cat SDList.txt
+echo " "
+echo " "
+echo "Press Enter To Go To Main Menu"
+read a4
+else
+echo "Going Back to Main Menu..."
+sleep 1
+fi
+elif [ $ch -eq 2 ];then
+clear
+echo -e "\e[1;32m "
+figlet -f slant -c S Dorker
+echo -e "\e[1;34m Created By \e[0m"
+toilet -f mono12 -F gay SpeedX
+echo -e "\e[4;34m This Dorker Was Created By SpeedX \e[0m"
+echo -e "\e[1;34m For Any Queries Mail Me!!!\e[0m"
+echo -e "\e[1;32m           Mail: ggspeedx29@gmail.com \e[0m"
+echo -e "\e[4;32m  Facebook Page: https://www.facebook.com/GyanaTech \e[0m"
+echo -e "\e[1;31m "
+echo "Note: This Scanner Only Scans for SQLi Vulnerablity"
+echo "Scanning Time Depends On Your Internet Speed & Site List.."
+echo "It is Recommended To Use SDorker Generate Vulnerable Site List"
+echo "Default FileName : SDList.txt "
+echo " "
+echo -e "\e[1;33mInput The Name Of File Containing Links:"
+read fin
+echo -e "\e[1;32m"
+python2 vuln.py $fin
+echo -e "\e[1;34m Press Enter To Continue.."
+read a1
+elif [ $ch -eq 3 ];then
+clear
+cd files
+while true
+do
+clear
+echo -e "\e[1;32m "
+figlet -f slant -c S Dorker
+echo -e "\e[1;34m Created By \e[0m"
+toilet -f mono12 -F gay SpeedX
+echo -e "\e[4;34m This Dorker Was Created By SpeedX \e[0m"
+echo -e "\e[1;34m For Any Queries Mail Me!!!\e[0m"
+echo -e "\e[1;32m           Mail: ggspeedx29@gmail.com \e[0m"
+echo -e "\e[4;32m  Facebook Page: https://www.facebook.com/GyanaTech \e[0m"
+echo -e "\e[1;31m "
+echo "These Dorks Were Taken From Internet !! And Just Sample Better Use Your Own Dorks"
+echo " "
+echo "Press 1 For SQLi Dorks"
+echo "Press 2 For XSS Dorks"
+echo "Press 3 For LFI/RFI Dorks"
+echo "Press 4 To Exit "
+read dc
+if [ $dc -eq 1 ];then
+echo -e "\e[1;33mSome SQLi Dorks"
+echo " "
+cat sqli.speedx
+echo " "
+echo " "
+echo "Press Enter To Go Back"
+read a2
+elif [ $dc -eq 2 ];then
+echo -e "\e[1;33mSome XSS Dorks"
+echo " "
+cat xss.speedx
+echo " "
+echo " "
+echo "Press Enter To Go Back"
+read a2
+elif [ $dc -eq 3 ];then
+echo -e "\e[1;33mSome File Inclusion Dorks"
+echo " "
+cat fi.speedx
+echo " "
+echo " "
+echo "Press Enter To Go Back"
+read a2
+elif [ $dc -eq 4 ];then
+break
+else
+echo "Invalid Input !!!"
+sleep 2
+fi
+done
+echo -e "\e[1;31m"
+cd ..
+elif [ $ch -eq 4 ];then
+clear
+toilet -f mono12 -F gay S Dorker
+echo -e "\e[1;32m Created By "
+figlet -f slant -c SpeedX
+echo " "
+echo -e "\e[1;33m Super Dorker is a Tool which finds the list of website according to your given GOOGLE dork. This can be used for Finding SQLi , XSS , LFI/RFI Vulnerable Websites.\e[0m"
+echo " "
+echo -e "\e[1;32m Each page of generated dorks contains about 10 Websites. So if you type 1 page it gives 10 websites , 2 page gives 20 websites, etc."
+echo " "
+echo -e "\e[1;34m Website Vulnerablity Scanner Scans only For SQLi Vulnerablity. It will Soon Be Updated To Scan For Other Vulnerabilities. Keep Supporting ME ;-)"
+echo " "
+echo -e "\e[1;31m NOTE: It is Only For Educational Purposes. Neither I Say Nor I Promote To Hack Sites Without Owners Consent."
+echo " "
+echo -e "\e[4;34m Super Dorker Was Created By SpeedX \e[0m"
+echo -e "\e[1;34m For Any Queries Mail Me!!!\e[0m"
+echo -e "\e[1;32m           Mail: ggspeedx29@gmail.com \e[0m"
+echo -e "\e[4;32m  Facebook Page: https://www.facebook.com/GyanaTech \e[0m"
+echo " "
+echo -e "\e[1;32mTo Support Me By Either Helping In Project Or Donating Small Amount To Me For That Contact Me By Mail\e[0m"
+echo " "
+echo " Press Enter To Continue..."
+read a5
+elif [ $ch -eq 5 ];then
+start=0
+else
+echo -e "\e[4;32m Invalid Input !!! \e[0m"
+echo "Press Enter To Go Home"
+read a3
+start=6
+clear
+fi
+done
+echo "Thanks For Using Super Dorker !!"
+figlet -f slant -c S Dorker
+echo "Created By SpeedX !!!!"
+toilet -f mono12 -F gay SpeedX
+echo -e "\e[1;34m For Any Queries Mail Me!!!\e[0m"
+echo -e "\e[1;32m           Mail: ggspeedx29@gmail.com \e[0m"
+echo -e "\e[4;32m  Facebook Page: https://www.facebook.com/GyanaTech \e[0m"
