@@ -17,14 +17,16 @@ This Script is Only For Educational Purposes or Super Dorker is a Tool which fin
            Mail: ggspeedx29@gmail.com
            
   Facebook Page: https://www.facebook.com/GyanaTech
-  
-            To Support Me By Either Helping In Project Or Donating Small Amount To Me For That Contact Me By Mail
+  To Support Me By Either Helping In Project Or Donating Small Amount To Me For That Contact Me By
+          
+          Mail: ggspeedx29@gmail.com
+          
  That's All !!!
 
  This Dorker Was Created By SpeedX
 
 
-#How To Install
+# How To Install
 
 To USE the script type the following commands
 
@@ -39,7 +41,7 @@ chmod +x SDork
 
 Now the Script Will Execute..
 
-#Requirements
+# Requirements
 
 Any Linux Terminal
 
