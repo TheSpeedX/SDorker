@@ -11,8 +11,11 @@ This Script is Only For Educational Purposes or Super Dorker is a Tool which fin
  NOTE: It is Only For Educational Purposes. Neither I Say Nor I Promote To Hack Sites Without Owners Consent.
 
  Super Dorker Was Created By SpeedX
+ 
  For Any Queries Mail Me!!!
+ 
            Mail: ggspeedx29@gmail.com
+           
   Facebook Page: https://www.facebook.com/GyanaTech
                                                                                           To Support Me By Either Helping In Project Or Donating Small Amount To Me For That Contact Me By Mail
 
