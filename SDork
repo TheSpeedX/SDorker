@@ -1,10 +1,22 @@
 #!/bin/bash
 clear
 echo -e "\e[4;31m SpeedX Productions !!! \e[0m"
-echo -e "\e[1;34m Presents \e[0m"
+echo -e "\e[1;34m        Presents \e[0m"
 echo -e "\e[1;32m SuperDorker \e[0m"
-echo "Press Enter To Continue"
+echo " "
+echo -e "\e[4;33m Tool For Get Huge Vulnerable Website List. \e[0m"
+echo " "
+echo " "
+echo "Press Enter To Continue..."
 read a
+if [[ -s update.speedx ]];then
+echo " "
+echo -e "\e[1;32m All Requirements Found... \e[0m"
+else
+echo " "
+echo -e "\e[1;32m Please Wait While We Install Necessary Requirements... \e[0m"
+echo " "
+echo " "
 apt update
 apt upgrade
 pkg update
@@ -13,6 +25,11 @@ pkg install figlet toilet curl python2 busybox
 pip2 install --upgrade pip
 pip2 install urllib3
 pip2 install progressbar2
+echo " "
+echo -e "\e[1;32m Requirements Installed Successfully...  \e[0m"
+echo "This App Was Last Updated On"$date >update.speedx
+echo "SuperDorker Was Created By SpeedX... Any Queries Mail ggspeedx29@gmail.com " >>update.speedx
+fi
 for (( start=5;start>=5;start++ ))
 do
 clear
@@ -30,8 +47,9 @@ echo -e "\e[1;33m"
 echo "Press 1 To Generate Sites From Dork"
 echo "Press 2 To Scan For Vulnerable Sites"
 echo "Press 3 To View Sample Dorks"
-echo "Press 4 For Instructions"
-echo "Press 5 to Exit "
+echo "Press 4 To Install Requirements And Update Script"
+echo "Press 5 For Instructions"
+echo "Press 6 to Exit "
 read ch
 if [ $ch -eq 1 ];then
 clear
@@ -159,6 +177,26 @@ echo -e "\e[1;31m"
 cd ..
 elif [ $ch -eq 4 ];then
 clear
+pkg install git
+echo -e "\e[1;34m Downloading Latest Files..."
+git clone https://github.com/TheSpeedX/SDorker
+cd SDorker
+cp -r -f * .. > temp
+cd ..
+rm -rf  SDorker >> temp
+rm update.speedx >> temp
+rm fullsl >> temp
+rm proxy.list >> temp
+rm temp
+chmod +x SDork
+echo -e "\e[1;32m SuperDorker Will Restart Now..."
+echo -e "\e[1;32m All The Required Packages Will Be Installed..."
+echo -e "\e[1;34m Press Enter To Proceed To Restart..."
+read a6
+./SDorker/SDork
+exit
+elif [ $ch -eq 5 ];then
+clear
 toilet -f mono12 -F gay S Dorker
 echo -e "\e[1;32m Created By "
 figlet -f slant -c SpeedX
@@ -169,6 +207,8 @@ echo -e "\e[1;32m Each page of generated dorks contains about 10 Websites. So if
 echo " "
 echo -e "\e[1;34m Website Vulnerablity Scanner Scans only For SQLi Vulnerablity. It will Soon Be Updated To Scan For Other Vulnerabilities. Keep Supporting ME ;-)"
 echo " "
+echo -e "\e[1;32m If you dont get any Website Even After Using Proxy Option for your Given Dork , Then Kindly USE VPN; Then Run The Script. :-)"
+echo " "
 echo -e "\e[1;31m NOTE: It is Only For Educational Purposes. Neither I Say Nor I Promote To Hack Sites Without Owners Consent."
 echo " "
 echo -e "\e[4;34m Super Dorker Was Created By SpeedX \e[0m"
@@ -176,11 +216,11 @@ echo -e "\e[1;34m For Any Queries Mail Me!!!\e[0m"
 echo -e "\e[1;32m           Mail: ggspeedx29@gmail.com \e[0m"
 echo -e "\e[4;32m  Facebook Page: https://www.facebook.com/GyanaTech \e[0m"
 echo " "
-echo -e "\e[1;32mTo Support Me By Either Helping In Project Or Donating Small Amount To Me For That Contact Me By Mail\e[0m"
+echo -e "\e[1;32m Support Me By Either Helping In Project Or Donating Small Amount To Me For That Contact Me By Mail\e[0m"
 echo " "
 echo " Press Enter To Continue..."
 read a5
-elif [ $ch -eq 5 ];then
+elif [ $ch -eq 6 ];then
 start=0
 else
 echo -e "\e[4;32m Invalid Input !!! \e[0m"
