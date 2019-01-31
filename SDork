@@ -19,8 +19,6 @@ echo " "
 echo " "
 apt update
 apt upgrade
-pkg update
-pkg upgrade
 pkg install figlet toilet curl python2 busybox
 pip2 install --upgrade pip
 pip2 install urllib3

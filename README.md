@@ -8,15 +8,39 @@ This Script is Only For Educational Purposes or Super Dorker is a Tool which fin
 
  Website Vulnerablity Scanner Scans only For SQLi Vulnerablity. It will Soon Be Updated To Scan For Other Vulnerabilities. Keep Supporting ME ;-)
 
+# Requirements
+
+-Any Linux Terminal
+-Packages Like curl python2 figlet toilet  installed
+	For Linux```sudo apt-get curl python2 figlet toilet```
+	For Termux Packages Will Automatically Get Installed !!!
+-Knowledge Of Dorking
+
+# How To Install
+
+To USE the script type the following commands
+
+```git clone https://github.com/TheSpeedX/SDorker.git```
+
+```cd SDorker```
+
+```chmod +x SDork```
+
+```./SDork```
+
+Now the Script Will Execute..
+
+# NOTE
  NOTE: It is Only For Educational Purposes. Neither I Say Nor I Promote To Hack Sites Without Owners Consent.
 
  Super Dorker Was Created By SpeedX
  
- For Any Queries Mail Me!!!
- 
-           Mail: ggspeedx29@gmail.com
-           
-  Facebook Page: https://www.facebook.com/GyanaTech
+ For Any Queries Join Me On WhatsApp!!!
+    Group Link: http://bit.do/thespeedxgit
+<a href="http://bit.do/thespeedxgit">Join My Group</a>
+
+           YouTube Channel: https://www.youtube.com/c/GyanaTech
+  <a href="https://www.youtube.com/c/GyanaTech">Check My Channel</a>
   
   To Support Me By Either Helping In Project Or Donating Small Amount To Me For That Contact Me By
           
@@ -27,30 +51,13 @@ This Script is Only For Educational Purposes or Super Dorker is a Tool which fin
  This Dorker Was Created By SpeedX
 
 
-# How To Install
+# CONTACT
 
-To USE the script type the following commands
+For Any Queries Join Me On WhatsApp!!!
+    Group Link: http://bit.do/thespeedxgit
+<a href="http://bit.do/thespeedxgit">Join My Group</a>
 
-git clone https://github.com/TheSpeedX/SDorker.git
-
-cd SDorker
-
-chmod +x SDork
-
-./SDork
-
-
-Now the Script Will Execute..
-
-# Requirements
-
-Any Linux Terminal
-
-Knowledge Of Dorking
-
-
- For Any Queries Mail Me!!!
- 
            Mail: ggspeedx29@gmail.com
-           
-        Facebook Page: https://www.facebook.com/GyanaTech
+
+           YouTube Channel: https://www.youtube.com/c/GyanaTech
+  <a href="https://www.youtube.com/c/GyanaTech">Check My Channel</a>
