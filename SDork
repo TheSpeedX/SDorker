@@ -37,8 +37,8 @@ echo -e "\e[1;34m Created By \e[0m"
 toilet -f mono12 -F gay SpeedX
 echo -e "\e[4;34m This Dorker Was Created By SpeedX \e[0m"
 echo -e "\e[1;34m For Any Queries Mail Me!!!\e[0m"
-echo -e "\e[1;32m           Mail: ggspeedx29@gmail.com \e[0m"
-echo -e "\e[4;32m  Facebook Page: https://www.facebook.com/GyanaTech \e[0m"
+echo -e "\e[1;32m             Mail: ggspeedx29@gmail.com \e[0m"
+echo -e "\e[4;32m  YouTube Channel: https://www.youtube.com/c/GyanaTech \e[0m"
 echo " "
 echo -e "\e[4;31m Please Read Instruction Carefully !!! \e[0m"
 echo -e "\e[1;33m"
@@ -104,8 +104,8 @@ echo -e "\e[1;34m Created By \e[0m"
 toilet -f mono12 -F gay SpeedX
 echo -e "\e[4;34m This Dorker Was Created By SpeedX \e[0m"
 echo -e "\e[1;34m For Any Queries Mail Me!!!\e[0m"
-echo -e "\e[1;32m           Mail: ggspeedx29@gmail.com \e[0m"
-echo -e "\e[4;32m  Facebook Page: https://www.facebook.com/GyanaTech \e[0m"
+echo -e "\e[1;32m          Mail: ggspeedx29@gmail.com \e[0m"
+echo -e "\e[4;32m  YouTube Page: https://www.youtube.com/c/GyanaTech \e[0m"
 echo -e "\e[1;31m "
 echo "Note: This Scanner Only Scans for SQLi Vulnerablity"
 echo "Scanning Time Depends On Your Internet Speed & Site List.."
@@ -131,7 +131,7 @@ toilet -f mono12 -F gay SpeedX
 echo -e "\e[4;34m This Dorker Was Created By SpeedX \e[0m"
 echo -e "\e[1;34m For Any Queries Mail Me!!!\e[0m"
 echo -e "\e[1;32m           Mail: ggspeedx29@gmail.com \e[0m"
-echo -e "\e[4;32m  Facebook Page: https://www.facebook.com/GyanaTech \e[0m"
+echo -e "\e[4;32m       Whatsapp: https://bit.do/thespeedxgit \e[0m"
 echo -e "\e[1;31m "
 echo "These Dorks Were Taken From Internet !! And Just Sample Better Use Your Own Dorks"
 echo " "
@@ -178,6 +178,7 @@ clear
 pkg install git
 echo -e "\e[1;34m Downloading Latest Files..."
 git clone https://github.com/TheSpeedX/SDorker
+if [[ -s SDorker/SDork ]];then
 cd SDorker
 cp -r -f * .. > temp
 cd ..
@@ -187,6 +188,7 @@ rm fullsl >> temp
 rm proxy.list >> temp
 rm temp
 chmod +x SDork
+fi
 echo -e "\e[1;32m SuperDorker Will Restart Now..."
 echo -e "\e[1;32m All The Required Packages Will Be Installed..."
 echo -e "\e[1;34m Press Enter To Proceed To Restart..."
@@ -212,7 +214,8 @@ echo " "
 echo -e "\e[4;34m Super Dorker Was Created By SpeedX \e[0m"
 echo -e "\e[1;34m For Any Queries Mail Me!!!\e[0m"
 echo -e "\e[1;32m           Mail: ggspeedx29@gmail.com \e[0m"
-echo -e "\e[4;32m  Facebook Page: https://www.facebook.com/GyanaTech \e[0m"
+echo -e "\e[1;32m       Whatsapp: https://bit.do/thespeedxgit \e[0m"
+echo -e "\e[4;32m   YouTube Page: https://www.youtube.com/c/GyanaTech \e[0m"
 echo " "
 echo -e "\e[1;32m Support Me By Either Helping In Project Or Donating Small Amount To Me For That Contact Me By Mail\e[0m"
 echo " "
@@ -234,4 +237,5 @@ echo "Created By SpeedX !!!!"
 toilet -f mono12 -F gay SpeedX
 echo -e "\e[1;34m For Any Queries Mail Me!!!\e[0m"
 echo -e "\e[1;32m           Mail: ggspeedx29@gmail.com \e[0m"
-echo -e "\e[4;32m  Facebook Page: https://www.facebook.com/GyanaTech \e[0m"
+echo -e "\e[1;32m       Whatsapp: https://bit.do/thespeedxgit \e[0m"
+echo -e "\e[4;32m   YouTube Page: https://www.youtube.com/c/GyanaTech \e[0m"
