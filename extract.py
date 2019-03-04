@@ -1,4 +1,4 @@
-import sys
+import sys,urllib
 def main():
 	f=open(sys.argv[1],"r")
 	str=f.read()
@@ -9,6 +9,7 @@ def main():
 			stin=8
 			ein=int(s.find("&amp;"))
 			t=s[stin:ein]
+			t=urllib.unquote_plus(t)
 			print t
 if __name__=="__main__":
 	main()
