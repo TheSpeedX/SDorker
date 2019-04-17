@@ -25,7 +25,7 @@ pip2 install urllib3
 pip2 install progressbar2
 echo " "
 echo -e "\e[1;32m Requirements Installed Successfully...  \e[0m"
-echo "This App Was Last Updated On"$date >update.speedx
+echo "This App Was Last Updated On" $(date) >update.speedx
 echo "SuperDorker Was Created By SpeedX... Any Queries Mail ggspeedx29@gmail.com " >>update.speedx
 fi
 for (( start=5;start>=5;start++ ))
