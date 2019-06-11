@@ -25,7 +25,7 @@ pip2 install urllib3
 pip2 install progressbar2
 echo " "
 echo -e "\e[1;32m Requirements Installed Successfully...  \e[0m"
-echo "This App Was Last Updated On" $(date) >update.speedx
+echo "This App Was Last Updated On"$date >update.speedx
 echo "SuperDorker Was Created By SpeedX... Any Queries Mail ggspeedx29@gmail.com " >>update.speedx
 fi
 for (( start=5;start>=5;start++ ))
@@ -131,7 +131,7 @@ toilet -f mono12 -F gay SpeedX
 echo -e "\e[4;34m This Dorker Was Created By SpeedX \e[0m"
 echo -e "\e[1;34m For Any Queries Mail Me!!!\e[0m"
 echo -e "\e[1;32m           Mail: ggspeedx29@gmail.com \e[0m"
-echo -e "\e[4;32m       Whatsapp: https://bit.do/thespeedxgit \e[0m"
+echo -e "\e[4;32m       Whatsapp: https://bit.do/speedxgit \e[0m"
 echo -e "\e[1;31m "
 echo "These Dorks Were Taken From Internet !! And Just Sample Better Use Your Own Dorks"
 echo " "
@@ -214,7 +214,7 @@ echo " "
 echo -e "\e[4;34m Super Dorker Was Created By SpeedX \e[0m"
 echo -e "\e[1;34m For Any Queries Mail Me!!!\e[0m"
 echo -e "\e[1;32m           Mail: ggspeedx29@gmail.com \e[0m"
-echo -e "\e[1;32m       Whatsapp: https://bit.do/thespeedxgit \e[0m"
+echo -e "\e[1;32m       Whatsapp: https://bit.do/speedxgit \e[0m"
 echo -e "\e[4;32m   YouTube Page: https://www.youtube.com/c/GyanaTech \e[0m"
 echo " "
 echo -e "\e[1;32m Support Me By Either Helping In Project Or Donating Small Amount To Me For That Contact Me By Mail\e[0m"
@@ -237,5 +237,5 @@ echo "Created By SpeedX !!!!"
 toilet -f mono12 -F gay SpeedX
 echo -e "\e[1;34m For Any Queries Mail Me!!!\e[0m"
 echo -e "\e[1;32m           Mail: ggspeedx29@gmail.com \e[0m"
-echo -e "\e[1;32m       Whatsapp: https://bit.do/thespeedxgit \e[0m"
+echo -e "\e[1;32m       Whatsapp: https://bit.do/speedxgit \e[0m"
 echo -e "\e[4;32m   YouTube Page: https://www.youtube.com/c/GyanaTech \e[0m"
